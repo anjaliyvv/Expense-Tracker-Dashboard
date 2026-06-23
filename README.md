@@ -1,4 +1,3 @@
-
 # 📊 Expense Tracker Dashboard
 
 A modern, high-performance financial analytics dashboard built with **React**, **Vite**, **TypeScript**, and **Tailwind CSS**. This application delivers real-time expense monitoring, visual metric charts, and seamless data handling to make tracking personal finances effortless and intuitive.
@@ -33,12 +32,6 @@ Ensure you have **Node.js** installed.
 
 ### 2. Installation
 Clone the repository and install the project dependencies:
+
 ```bash
 npm install
-
-## Author
-
-* **Name:** Anjali Yadav
-* **Role:** Software Engineering Intern
-* **Intern ID:** `CITS2796`
-* **Academic Background:** Computer Science 
