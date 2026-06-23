@@ -1,0 +1,71 @@
+[debug] [2026-06-23T14:32:25.809Z] ----------------------------------------------------------------------
+[debug] [2026-06-23T14:32:25.814Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anjal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --no-localhost
+[debug] [2026-06-23T14:32:25.815Z] CLI Version:   15.22.1
+[debug] [2026-06-23T14:32:25.815Z] Platform:      win32
+[debug] [2026-06-23T14:32:25.815Z] Node Version:  v24.17.0
+[debug] [2026-06-23T14:32:25.816Z] Detected Agent: unknown
+[debug] [2026-06-23T14:32:25.816Z] Time:          Tue Jun 23 2026 20:02:25 GMT+0530 (India Standard Time)
+[debug] [2026-06-23T14:32:25.816Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  The Firebase CLI’s MCP server feature can optionally make use of Gemini in Firebase. Learn more about Gemini in Firebase and how it uses your data: https://firebase.google.com/docs/gemini-in-firebase#how-gemini-in-firebase-uses-your-data 
+[info] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you. 
+[debug] [2026-06-23T14:32:32.056Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2026-06-23T14:32:32.057Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"ab2edf85-bc8d-496e-a252-34f89611d55e"}
+[debug] [2026-06-23T14:32:32.687Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2026-06-23T14:32:32.688Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"YfnCBOUSMr8Ms3NC4fN1beGmNvRR5e9lat1x_-1xyXc"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    AB2ED
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=X27EWJkILXRYTw0YKJ5o_OhMFuC2x2aoIJ8hUdFITq8&session=ab2edf85-bc8d-496e-a252-34f89611d55e&attest=YfnCBOUSMr8Ms3NC4fN1beGmNvRR5e9lat1x_-1xyXc
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
+[debug] [2026-06-23T14:35:03.899Z] ----------------------------------------------------------------------
+[debug] [2026-06-23T14:35:03.906Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anjal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --interactive
+[debug] [2026-06-23T14:35:03.906Z] CLI Version:   15.22.1
+[debug] [2026-06-23T14:35:03.906Z] Platform:      win32
+[debug] [2026-06-23T14:35:03.907Z] Node Version:  v24.17.0
+[debug] [2026-06-23T14:35:03.907Z] Detected Agent: unknown
+[debug] [2026-06-23T14:35:03.907Z] Time:          Tue Jun 23 2026 20:05:03 GMT+0530 (India Standard Time)
+[debug] [2026-06-23T14:35:03.907Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  The Firebase CLI’s MCP server feature can optionally make use of Gemini in Firebase. Learn more about Gemini in Firebase and how it uses your data: https://firebase.google.com/docs/gemini-in-firebase#how-gemini-in-firebase-uses-your-data 
+[info] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=540164131&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2026-06-23T14:35:33.266Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2026-06-23T14:35:33.266Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2026-06-23T14:35:33.457Z] Token Fetch Error: FirebaseError: FetchError: Invalid response body while trying to fetch https://accounts.google.com/o/oauth2/token: Premature close
+    at RetryOperation._fn (C:\Users\anjal\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:317:88)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[error] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2026-06-23T14:35:33.467Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2026-06-23T14:35:33.467Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"44879314-5363-4f01-90a7-40cd33517e64"}
+[debug] [2026-06-23T14:35:34.121Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2026-06-23T14:35:34.121Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"K1GlDBUc1k5TxqOaFp_LyE0SPSG2NGW6yN66vNE9KqE"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    44879
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=hXVwRx21MZZN7BEmQnpOWSe0RUBDs3MNqjbVDPm2jMo&session=44879314-5363-4f01-90a7-40cd33517e64&attest=K1GlDBUc1k5TxqOaFp_LyE0SPSG2NGW6yN66vNE9KqE
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
