@@ -36,6 +36,7 @@ Clone the repository and install the project dependencies:
 ```bash
 npm install
 
+---
 **## Author**
 * **Name:** Anjali Yadav
 * **Role:** Software Engineering Intern
