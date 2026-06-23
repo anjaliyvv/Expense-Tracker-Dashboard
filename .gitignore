@@ -1,0 +1,23 @@
+# Secret Keys (CRITICAL)
+.env
+.env.local
+
+# Bulky Dependencies
+node_modules/
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# Build Outputs & Bundles
+dist/
+build/
+build_output.txt
+
+# Non-Essential Documentation / Scratchpads
+CRUD_SETUP.md
+IMPLEMENTATION_SUMMARY.md
+QUICKSTART.md
+guidelines/
+
+# OS/System clutter
+.DS_Store
+Thumbs.db
